@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edubix</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <main class="w-full min-h-screen">
+        <!-- hero -->
+        <section id="hero" class="w-full min-h-screen bg-[#1C1E53] flex items-center justify-center flex-col">
+
+            <!-- nav -->
+            <header class="w-full h-16 lg:flex hidden justify-center items-center absolute top-4">
+                <nav class="w-11/12 h-full flex items-center justify-between text-white">
+                    <h1 class="text-2xl font-semibold">[Edubix]</h1>
+                    <ul class="flex items-center">
+                        <li class="ml-8">
+                            <a href="#">Beranda</a>
+                        </li>
+                        <li class="ml-8">
+                            <a href="#">Tentang Kami</a>
+                        </li>
+                        <li class="ml-8">
+                            <a href="#">Kursus</a>
+                        </li>
+                        <li class="ml-8">
+                            <a href="#">FAQ</a>
+                        </li>
+                        <li class="ml-8">
+                            <a href="#">Blog</a>
+                        </li>
+                        <a href="#" class="px-8 py-2 border border-white rounded ml-20">
+                            Login
+                        </a>
+                    </ul>
+                </nav>
+            </header>
+            <!-- end nav -->
+
+            <!-- content -->
+            <div
+                class="w-11/12 mx-auto mt-8 space-x-3 flex flex-col lg:flex-row justify-center items-center text-center lg:text-left">
+                <aside class="lg:w-6/12 w-11/12 text-white">
+                    <h1 class="text-4xl font-bold leading-relaxed">Bangun dan Wujudkan Cita <br>
+                        Bersama EDUBIX
+                    </h1>
+                    <p class="text-sm my-8 lg:pr-8 pr-0">EDUBIX adalah sebuah layanan kursus dan pelatihan gratis secara
+                        online<br>
+                        yang bertujuan untuk membantu kamu meraih cita di bidang teknologi.
+                    </p>
+                    <div class="flex flex-col lg:flex-row space-x-8 space-y-4 lg:space-y-0 items-center mb-6 lg:mb-0">
+                        <a href="#" class="rounded-md px-12 py-3 bg-[#FCD980] text-black">Lihat Kursus</a>
+                        <a href="#">Lihat Alur Belajar &#8594;</a>
+                    </div>
+                </aside>
+                <img src="img/HeroImage.png" alt="HeroImage" class="lg:w-6/12 w-11/12">
+            </div>
+            <!-- end content -->
+        </section>
+        <!-- end hero -->
+
+        <!-- partner -->
+        <section id="partner" class="bg-[#EEF4FA] w-full py-20 ">
+            <ul class="w-11/12 mx-auto flex flex-wrap justify-center items-end">
+                <li class="lg:mr-5 mr-2 ">
+                    <h2 class="text-3xl font-bold">21.000+</h2>
+                    <p class="text-sm">Siswa Terdaftar</p>
+                </li>
+                <li class="lg:mr-5 mr-2 ">
+                    <h2 class="text-3xl font-bold">100+</h2>
+                    <p class="text-sm">Instruktur Ahli</p>
+                </li>
+                <li class="mr-10 ">
+                    <h2 class="text-3xl font-bold">150+</h2>
+                    <p class="text-sm">Kursus Gratis</p>
+                </li>
+                <li class="lg:mr-5 mr-2">
+                    <img src="img/lorem.png" alt="Lorem">
+                </li>
+                <li class="lg:mr-5 mr-2">
+                    <img src="img/ditlance.png" alt="Lorem">
+                </li>
+                <li class="lg:mr-5 mr-2">
+                    <img src="img/owthest.png" alt="Lorem">
+                </li>
+                <li class="lg:mr-5 mr-2">
+                    <img src="img/neovasi.png" alt="Lorem">
+                </li>
+                <li class="lg:mr-5 mr-2">
+                    <img src="img/onago.png" alt="Lorem">
+                </li>
+            </ul>
+        </section>
+        <!-- end partner -->
+
+        <!-- benefits -->
+        <section id="benefits" class="w-full min-h-screen py-16">
+            <h1 class="text-4xl w-11/12 mx-auto font-bold text-center max-w-[630px]">Keberuntungan Bergabung dengan
+                E-Learning EDUFREE
+            </h1>
+            <ul class="w-11/12 mx-auto grid lg:grid-cols-3 grid-cols-1 mt-12 gap-3">
+                <!-- card -->
+                <li class="p-8 bg-[#EEF4FA] rounded-lg shadow-2xl">
+                    <span class="bg-[#2405F2] relative px-4 py-2 rounded-md font-bold text-white 
+                        after:content-[''] 
+                        after:w-3 
+                        after:h-6 
+                        after:bg-[#FCD980] 
+                        after:absolute 
+                        after:bottom-0 
+                        after:left-0 
+                        after:rounded-tr-lg 
+                        after:rounded-bl">1</span>
+                    <h2 class="text-2xl font-semibold mt-6">Kursus Gratis</h2>
+                    <p class="mt-3">Kami menyediakan beberapa kursus gratis untuk menunjang ketersediaan pendidikan
+                        untuk masyarakat
+                        kurang mampu</p>
+                </li>
+                <!-- end card -->
+
+                <!-- card -->
+                <li class="p-8 bg-[#EEF4FA] rounded-lg shadow-2xl">
+                    <span class="bg-[#2405F2] relative px-4 py-2 rounded-md font-bold text-white 
+                        after:content-[''] 
+                        after:w-3 
+                        after:h-6 
+                        after:bg-[#FCD980] 
+                        after:absolute 
+                        after:bottom-0 
+                        after:left-0 
+                        after:rounded-tr-lg 
+                        after:rounded-bl">
+                        2
+                    </span>
+                    <h2 class="text-2xl font-semibold mt-6">Akses Selamanya</h2>
+                    <p class="mt-3">Semua kursus yang telah kamu daftar bisa diakses selamanya sehingga belajar kamu
+                        lebih nyaman dan
+                        tidak terburu-buru</p>
+                </li>
+                <!-- end card -->
+
+                <!-- card -->
+                <li class="p-8 bg-[#EEF4FA] rounded-lg shadow-2xl">
+                    <span class="bg-[#2405F2] relative px-4 py-2 rounded-md font-bold text-white 
+                        after:content-[''] 
+                        after:w-3 
+                        after:h-6 
+                        after:bg-[#FCD980] 
+                        after:absolute 
+                        after:bottom-0 
+                        after:left-0 
+                        after:rounded-tr-lg 
+                        after:rounded-bl">
+                        3
+                    </span>
+                    <h2 class="text-2xl font-semibold mt-6">Grup Konsultasi</h2>
+                    <p class="mt-3">Terdapat grup konsultasi yang berguna jika kamu ingin menanyakan suatu pertanyaan
+                        dan kamu juga bisa
+                        mebuka diskusi baru</p>
+                </li>
+                <!-- end card -->
+
+                <!-- card -->
+                <li class="p-8 bg-[#EEF4FA] rounded-lg shadow-2xl">
+                    <span class="bg-[#2405F2] relative px-4 py-2 rounded-md font-bold text-white 
+                        after:content-[''] 
+                        after:w-3 
+                        after:h-6 
+                        after:bg-[#FCD980] 
+                        after:absolute 
+                        after:bottom-0 
+                        after:left-0 
+                        after:rounded-tr-lg 
+                        after:rounded-bl">
+                        4
+                    </span>
+                    <h2 class="text-2xl font-semibold mt-6">Sertifikat dan Portofolio</h2>
+                    <p class="mt-3">Setelah menyelesaikan kursus kamu akan mendapatkan sertifikat serta portofolio dari
+                        project kursus
+                        yang telah diselesaikan</p>
+                </li>
+                <!-- end card -->
+
+                <!-- card -->
+                <li class="p-8 bg-[#EEF4FA] rounded-lg shadow-2xl">
+                    <span class="bg-[#2405F2] relative px-4 py-2 rounded-md font-bold text-white 
+                        after:content-[''] 
+                        after:w-3 
+                        after:h-6 
+                        after:bg-[#FCD980] 
+                        after:absolute 
+                        after:bottom-0 
+                        after:left-0 
+                        after:rounded-tr-lg 
+                        after:rounded-bl">
+                        5
+                    </span>
+                    <h2 class="text-2xl font-semibold mt-6">Belajar Lebih Terarah</h2>
+                    <p class="mt-3">Kursus menyediakan kursus dari level dasar hingga expert sehingga semua bisa belajar
+                        dengan layanan
+                        yang kami sediakan</p>
+                </li>
+                <!-- end card -->
+
+                <!-- card -->
+                <li class="p-8 bg-[#EEF4FA] rounded-lg shadow-2xl">
+                    <span class="bg-[#2405F2] relative px-4 py-2 rounded-md font-bold text-white 
+                        after:content-[''] 
+                        after:w-3 
+                        after:h-6 
+                        after:bg-[#FCD980] 
+                        after:absolute 
+                        after:bottom-0 
+                        after:left-0 
+                        after:rounded-tr-lg 
+                        after:rounded-bl">
+                        6
+                    </span>
+                    <h2 class="text-2xl font-semibold mt-6">Instruktur Berpengalaman</h2>
+                    <p class="mt-3">Kami mempunyai instruktur berpengalaman yang diambil dari dunia industri yang tak
+                        diragukan lagi
+                        pengalamannya</p>
+                </li>
+                <!-- end card -->
+            </ul>
+        </section>
+        <!-- end benefits -->
+
+        <!-- About us -->
+        <section id="about"
+            class="w-11/12 mx-auto flex flex-col lg:flex-row justify-between items-center py-20 space-x-3">
+            <aside class="lg:w-6/12 w-11/12">
+                <h2 class="text-xl font-semibold text-black/70">Tentang Kami</h2>
+                <h1 class="text-4xl font-bold leading-relaxed my-3">
+                    EDUBIX Layanan E-Learning Gratis Untuk Membantu Kamu Bertumbuh
+                </h1>
+                <p class="text-black/70">
+                    Edufree diharapkann bisa menjadi layanan yang bermanfaat bagi kedepanya dalam bidang pendidikan
+                </p>
+            </aside>
+            <img src="img/aboutusimage.png" class="lg:w-5/12 w-11/12 mt-8 lg:mt-0" alt="About Us Image">
+        </section>
+        <!-- end About us -->
+
+        <!-- course -->
+        <section id="course" class="w-11/12 py-8 min-h-screen mx-auto">
+            <!-- top -->
+            <div class="flex flex-col lg:flex-row justify-between items-center py-4 border-b border-black/30">
+                <h1 class="text-4xl leading-relaxed lg:text-left text-center lg:w-4/12 w-11/12 font-semibold">
+                    Rekomendasi Kursus Untuk Kamu</h1>
+                <div class="flex items-center mt-8 lg:mt-0">
+                    <p class="mr-1">Kategori</p>
+                    <img src="img/chevron-bottom.svg" alt="">
+                    <a href="#" class="rounded-md px-8 ml-8 py-3 bg-[#FCD980] text-black">Lihat Semua</a>
+                </div>
+            </div>
+            <!-- end top -->
+
+            <!-- course list -->
+            <ul class="w-full grid lg:grid-cols-3 grid-cols-1 mt-8 gap-3">
+                <!-- course card -->
+                <li class="">
+                    <!-- atas -->
+                    <div class="relative">
+                        <img src="img/course1.png" alt="Course 1" class="w-full">
+                        <span
+                            class="absolute right-3 -bottom-3 text-white font-semibold px-4 py-1 rounded-full flex bg-[#1C1E53]">
+                            <img src="img/star.svg" alt="Bintang">
+                            4,9
+                        </span>
+                    </div>
+                    <!-- end atas -->
+                    <!-- bawah -->
+                    <div class="lg:p-6 p-3">
+                        <h2 class="text-2xl font-semibold">Dasar Pemrograman Web</h2>
+                        <p class="text-sm text-black/80 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                        <!-- icon -->
+                        <div class="flex w-11/12 justify-between items-center lg:mt-5 mt-2">
+                            <!-- icon item -->
+                            <div class="flex items-center text-black/80 lg:mr-0">
+                                <img src="img/hour.svg" class="lg:mr-2 mr-1" alt="Hours">
+                                <p>4,5 Jam</p>
+                            </div>
+                            <!-- icon item -->
+                            <div class="flex items-center text-black/80 lg:mr-0">
+                                <img src="img/video.svg" class="lg:mr-2 mr-1" alt="Video">
+                                <p>20 Video</p>
+                            </div>
+                            <!-- icon item -->
+                            <div class="flex items-center text-black/80 lg:mr-0">
+                                <img src="img/student.svg" class="lg:mr-2 mr-1" alt="People">
+                                <p>1990 Siswa</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- end course card -->
+                <!-- course card -->
+                <li class="">
+                    <!-- atas -->
+                    <div class="relative">
+                        <img src="img/course1.png" alt="Course 1" class="w-full">
+                        <span
+                            class="absolute right-3 -bottom-3 text-white font-semibold px-4 py-1 rounded-full flex bg-[#1C1E53]">
+                            <img src="img/star.svg" alt="Bintang">
+                            4,9
+                        </span>
+                    </div>
+                    <!-- end atas -->
+                    <!-- bawah -->
+                    <div class="lg:p-6 p-3">
+                        <h2 class="text-2xl font-semibold">Dasar Pemrograman Web</h2>
+                        <p class="text-sm text-black/80 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                        <!-- icon -->
+                        <div class="flex w-11/12 justify-between items-center lg:mt-5 mt-2">
+                            <!-- icon item -->
+                            <div class="flex items-center text-black/80 lg:mr-0">
+                                <img src="img/hour.svg" class="lg:mr-2 mr-1" alt="Hours">
+                                <p>4,5 Jam</p>
+                            </div>
+                            <!-- icon item -->
+                            <div class="flex items-center text-black/80 lg:mr-0">
+                                <img src="img/video.svg" class="lg:mr-2 mr-1" alt="Video">
+                                <p>20 Video</p>
+                            </div>
+                            <!-- icon item -->
+                            <div class="flex items-center text-black/80 lg:mr-0">
+                                <img src="img/student.svg" class="lg:mr-2 mr-1" alt="People">
+                                <p>1990 Siswa</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- end course card -->
+                <!-- course card -->
+                <li class="">
+                    <!-- atas -->
+                    <div class="relative">
+                        <img src="img/course1.png" alt="Course 1" class="w-full">
+                        <span
+                            class="absolute right-3 -bottom-3 text-white font-semibold px-4 py-1 rounded-full flex bg-[#1C1E53]">
+                            <img src="img/star.svg" alt="Bintang">
+                            4,9
+                        </span>
+                    </div>
+                    <!-- end atas -->
+                    <!-- bawah -->
+                    <div class="lg:p-6 p-3">
+                        <h2 class="text-2xl font-semibold">Dasar Pemrograman Web</h2>
+                        <p class="text-sm text-black/80 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                        <!-- icon -->
+                        <div class="flex w-11/12 justify-between items-center lg:mt-5 mt-2">
+                            <!-- icon item -->
+                            <div class="flex items-center text-black/80 lg:mr-0">
+                                <img src="img/hour.svg" class="lg:mr-2 mr-1" alt="Hours">
+                                <p>4,5 Jam</p>
+                            </div>
+                            <!-- icon item -->
+                            <div class="flex items-center text-black/80 lg:mr-0">
+                                <img src="img/video.svg" class="lg:mr-2 mr-1" alt="Video">
+                                <p>20 Video</p>
+                            </div>
+                            <!-- icon item -->
+                            <div class="flex items-center text-black/80 lg:mr-0">
+                                <img src="img/student.svg" class="lg:mr-2 mr-1" alt="People">
+                                <p>1990 Siswa</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- end course card -->
+            </ul>
+        </section>
+        <!-- end course -->
+
+        <!-- Testimonial -->
+        <section id="testimoni" class="w-full py-12 bg-[#EEF4FA]">
+            <div class="w-11/12 flex justify-between mx-auto flex-col lg:flex-row">
+                <!-- Left -->
+                <div class="lg:w-4/12 lg:text-left text-center ">
+                    <h1 class="text-3xl font-bold leading-relaxed">Kata Mereka Tentang EDUBIX</h1>
+                    <p class="text-lg">EDUBIX telah dipercaya lebih dari 1000 siswa.</p>
+                </div>
+                <!-- end Left -->
+                <!-- Right -->
+                <div class="lg:w-7/12 mt-9 lg:mt-0">
+                    <h2 class="text-2xl font-semibold text-justify">"Materi yang disampaikan mudah dimengerti, kualitas
+                        instruktur sangat baik serta responnya yang cepat. So, kursus disini sangat sangat saya
+                        rekomendasikan!!"</h2>
+                    <div class="flex items-center justify-between mt-8">
+                        <!-- Profile -->
+                        <div class="flex items-center">
+                            <img src="img/profile.png" alt="Profile">
+                            <div class="ml-4">
+                                <h3 class="text-lg font-semibold">Jenny Wilson</h3>
+                                <p>Vice President</p>
+                            </div>
+                        </div>
+                        <!-- end Profile -->
+                        <!-- Bullets -->
+                        <div class="flex space-x-3">
+                            <span class="w-3 h-3 rounded-full bg-blue-700"></span>
+                            <span class="w-3 h-3 rounded-full bg-blue-500"></span>
+                            <span class="w-3 h-3 rounded-full bg-blue-500"></span>
+                            <span class="w-3 h-3 rounded-full bg-blue-500"></span>
+                            <span class="w-3 h-3 rounded-full bg-blue-500"></span>
+                        </div>
+                        <!-- end Bullets -->
+                    </div>
+                </div>
+                <!-- end Right -->
+            </div>
+        </section>
+        <!-- end Testimonial -->
+
+        <!-- FAQ -->
+        <section id="faq" class="w-11/12 mx-auto flex justify-between py-20 flex-col lg:flex-row">
+            <!-- Left -->
+            <div class="lg:w-4/12 lg:text-left text-center">
+                <h1 class="text-3xl font-bold leading-relaxed">Frequently Asked Question</h1>
+                <p class="text-lg">Masih bingung atau ragu? Hubungi kami
+                    di nomor +6288 999 222 333</p>
+            </div>
+            <!-- end Left -->
+
+            <!-- Right -->
+            <ul class="lg:w-7/12 mt-9 lg:mt-0">
+                <li class="flex justify-between pb-12 border-b border-black/10">
+                    <span class="text-2xl text-blue-700 font-bold">01</span>
+                    <div class="w-10/12">
+                        <h3 class="text-2xl font-semibold mb-5">Apakah kursus ini benar-benar gratis?</h3>
+                        <p class="">Kursus yang disediakan bisa diakses gratis untuk menunjang kebutuhan dalam bidang
+                            kependidikan.</p>
+                    </div>
+                    <p class="text-4xl">&#215;</p>
+                </li>
+                <li class="flex justify-between pb-6 border-b border-black/10 mt-6">
+                    <span class="text-2xl text-blue-700 font-bold">02</span>
+                    <div class="w-10/12">
+                        <h3 class="text-2xl font-semibold mb-3">Apakah kursus ini benar-benar gratis?</h3>
+                    </div>
+                    <p class="text-4xl">&#43;</p>
+                </li>
+                <li class="flex justify-between pb-6 border-b border-black/10 mt-6">
+                    <span class="text-2xl text-blue-700 font-bold">03</span>
+                    <div class="w-10/12">
+                        <h3 class="text-2xl font-semibold mb-3">Apakah kursus ini benar-benar gratis?</h3>
+                    </div>
+                    <p class="text-4xl">&#43;</p>
+                </li>
+                <li class="flex justify-between pb-6 border-b border-black/10 mt-6">
+                    <span class="text-2xl text-blue-700 font-bold">04</span>
+                    <div class="w-10/12">
+                        <h3 class="text-2xl font-semibold mb-3">Apakah kursus ini benar-benar gratis?</h3>
+                    </div>
+                    <p class="text-4xl">&#43;</p>
+                </li>
+                <li class="flex justify-between pb-6 border-b border-black/10 mt-6">
+                    <span class="text-2xl text-blue-700 font-bold">05</span>
+                    <div class="w-10/12">
+                        <h3 class="text-2xl font-semibold mb-3">Apakah kursus ini benar-benar gratis?</h3>
+                    </div>
+                    <p class="text-4xl">&#43;</p>
+                </li>
+            </ul>
+            <!-- end Right -->
+
+        </section>
+        <!-- end FAQ -->
+
+        <!-- Register -->
+        <section id="register" class="flex bg-[#1C1E53] text-white min-h-screen lg:flex-row flex-col">
+            <!-- Left -->
+            <div class="lg:w-6/12 relative py-8 px-4 overflow-hidden">
+                <div class="lg:pt-12 lg:pl-12 lg:text-left text-center">
+                    <h1 class="text-4xl leading-relaxed font-bold lg:w-8/12 capitalize">Selangkah lebih dekat dengan
+                        impianmu</h1>
+                    <p class="lg:w-8/12 mt-8">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quasi
+                        voluptatibus ratione, consequatur neque, at natus rem voluptate culpa fugit quibusdam hic
+                        adipisci obcaecati aut veniam. Enim quia possimus culpa.</p>
+                </div>
+                <img src="img/bg-register.png" class="opacity-20 absolute w-full top-0 left-0 object-cover inset-0"
+                    alt="Register">
+            </div>
+            <!-- end Left -->
+            <!-- right -->
+            <div class="lg:w-6/12 w-11/12 mt-11 mx-auto flex py-12 justify-center">
+                <form action="#" class="lg:w-9/12">
+                    <h3 class="text-2xl font-semibold">Daftarkan Dirimu!</h3>
+                    <p class="my-6">Persiapkan diri untuk masa depan yang penuh dengan bintang</p>
+                    <input type="text"
+                        class="w-full my-4 bg-transparent px-8 py-4 border border-white/30 rounded-md focus:outline-none"
+                        name="nama" placeholder="Nama">
+                    <input type="email"
+                        class="w-full my-4 bg-transparent px-8 py-4 border border-white/30 rounded-md focus:outline-none"
+                        name="email" placeholder="Email">
+                    <input type="password"
+                        class="w-full my-4 bg-transparent px-8 py-4 border border-white/30 rounded-md focus:outline-none"
+                        name="password" placeholder="Password">
+                    <input type="submit" value="Daftar"
+                        class="w-full py-5 mt-5 uppercase bg-[#FCD980] text-black rounded-md">
+                    <div class="mt-3 w-full flex justify-center items-center">
+                        <p>Sudah Punya akun?</p>
+                        <a href="#" class="ml-2 underline">Login</a>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- end Register -->
+
+        <!-- Blogs -->
+        <section id="blog" class="w-11/12 min-h-screen mx-auto py-12">
+            <!-- top -->
+            <div class="flex w-full justify-between items-center mb-9 lg:flex-row flex-col">
+                <h1 class="text-4xl font-bold leading-relaxed lg:text-left text-center">Blog, Berita dan Event</h1>
+                <p>Lihat semua &#8594;</p>
+            </div>
+            <!-- end top -->
+            <!-- list -->
+            <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-3 gap-9">
+                <!-- Card Blog -->
+                <li>
+                    <img src="img/blog1.png" alt="Blog 1" class="w-full mb-6">
+                    <p class="mb-3 text-black/80 font-semibold">19 Jan 2003</p>
+                    <h2 class="mb-3 text-xl font-semibold">Cara Mudah Untuk Memulai Belajar Programming - EDUBIX</h2>
+                    <p class="mb-6 line-clamp-2">Menjadi seorang programmer saat ini sudah sangat mudah untuk dipelajari
+                        oleh
+                        siapapun ...</p>
+                    <a href="#" class="font-semibold text-black/60 hover:text-blue-700">Selengkapnya &#8594;</a>
+                </li>
+                <!-- End card -->
+                <!-- Card Blog -->
+                <li>
+                    <img src="img/blog2.png" alt="Blog 2" class="w-full mb-6">
+                    <p class="mb-3 text-black/80 font-semibold">19 Jan 2003</p>
+                    <h2 class="mb-3 text-xl font-semibold">Cara Mudah Untuk Memulai Belajar Programming - EDUBIX</h2>
+                    <p class="mb-6 line-clamp-2">Menjadi seorang programmer saat ini sudah sangat mudah untuk dipelajari
+                        oleh
+                        siapapun ...</p>
+                    <a href="#" class="font-semibold text-black/60 hover:text-blue-700">Selengkapnya &#8594;</a>
+                </li>
+                <!-- End card -->
+                <!-- Card Blog -->
+                <li>
+                    <img src="img/blog3.png" alt="Blog 3" class="w-full mb-6">
+                    <p class="mb-3 text-black/80 font-semibold">19 Jan 2003</p>
+                    <h2 class="mb-3 text-xl font-semibold">Cara Mudah Untuk Memulai Belajar Programming - EDUBIX</h2>
+                    <p class="mb-6 line-clamp-2">Menjadi seorang programmer saat ini sudah sangat mudah untuk dipelajari
+                        oleh
+                        siapapun ...</p>
+                    <a href="#" class="font-semibold text-black/60 hover:text-blue-700">Selengkapnya &#8594;</a>
+                </li>
+                <!-- End card -->
+            </ul>
+        </section>
+        <!-- end Blogs -->
+
+        <!-- Footer -->
+        <footer id="footer" class="w-full bg-[#1C1E53] mt-20 pt-16 text-white">
+            <div class="w-11/12 flex justify-between mx-auto lg:flex-row flex-col-reverse">
+                <!-- Left -->
+                <div class="lg:w-4/12">
+                    <h1 class="text-3xl font-bold">[EDUBIX]</h1>
+                    <p class="mt-4 w-10/12">Bangun dan wujudkan cita bersama edubix</p>
+                    <div
+                        class="w-full bg-[#FCD980] flex text-black lg:mt-24 mt-8 rounded-t-lg p-6 lg:space-x-4 lg:space-y-0 space-y-4 lg:flex-row flex-col">
+                        <div>
+                            <h3 class="font-semibold mb-2">Email</h3>
+                            <p class="text-sm">contact@email.com</p>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold mb-2">Telephone</h3>
+                            <p class="text-sm">+62 215 2151 5165</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End left -->
+                <!-- Right -->
+                <div class="lg:w-7/12 flex lg:space-x-24 lg:flex-row flex-col lg:mb-0 mb-8">
+                    <ul>
+                        <li class="font-semibold text-lg mb-6">Sosial Media</li>
+                        <li class="mb-1">Instagram</li>
+                        <li class="mb-1">Twitter</li>
+                        <li class="mb-1">LinkedIn</li>
+                    </ul>
+                    <ul>
+                        <li class="font-semibold text-lg mb-6">Program</li>
+                        <li class="mb-1"><a href="#">Merdeka Belajar</a></li>
+                        <li class="mb-1"><a href="#">FinterPreuneur</a></li>
+                    </ul>
+                    <ul>
+                        <li class="font-semibold text-lg mb-6">Dukungan</li>
+                        <li class="mb-1">Tentang Kami</li>
+                        <li class="mb-1">Ketentuan</li>
+                        <li class="mb-1">Kebijakan Privasi</li>
+                    </ul>
+                </div>
+                <!-- End Right -->
+            </div>
+
+
+            <div class="w-full bg-white py-6 text-black">
+                <div class="flex justify-between lg:mx-auto items center lg:flex-row flex-col-reverse w-11/12">
+                    <h4 class="font-bold text-center">&copy; Copyright EDUBIX by Incubix 2023</h4>
+                    <ul class="flex space-x-4">
+                        <li class="ml-8">Home</li>
+                        <li class="ml-8">Tentang Kami</li>
+                        <li class="ml-8">Kursus</li>
+                        <li class="ml-8">FAQ</li>
+                        <li class="ml-8">Blog</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <!-- end Footer -->
+    </main>
+
+</body>
+
+</html>
